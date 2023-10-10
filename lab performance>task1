@@ -1,0 +1,318 @@
+#include <iostream>
+#include <string>
+using namespace std;
+struct student{
+int id,sem_no,credit_no;
+float cgpa;
+
+};
+int main()
+{
+    student s1;
+    student s2;
+    student s3;
+    student s4;
+    student s5;
+    student s6;
+    student s7;
+    student s8;
+    student s9;
+    student s10;
+cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+   cin>> s1.id ;
+ cin>> s1.sem_no ;
+  cin>> s1.credit_no;
+   cin>> s1.cgpa;
+
+
+   cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+     cin>> s2.id ;
+ cin>> s2.sem_no ;
+  cin>> s2.credit_no;
+   cin>> s2.cgpa;
+
+   cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s3.id ;
+ cin>> s3.sem_no ;
+  cin>> s3.credit_no;
+   cin>> s3.cgpa;
+
+  cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s4.id ;
+ cin>> s4.sem_no ;
+  cin>> s4.credit_no;
+   cin>> s4.cgpa;
+
+    cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s5.id ;
+ cin>> s5.sem_no ;
+  cin>> s5.credit_no;
+   cin>> s5.cgpa;
+
+    cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s6.id ;
+ cin>> s6.sem_no ;
+  cin>> s6.credit_no;
+   cin>> s6.cgpa;
+
+    cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s7.id ;
+ cin>> s7.sem_no ;
+  cin>> s7.credit_no;
+   cin>> s7.cgpa;
+
+    cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s8.id ;
+ cin>> s8.sem_no ;
+  cin>> s8.credit_no;
+   cin>> s8.cgpa;
+
+    cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s9.id ;
+ cin>> s9.sem_no ;
+  cin>> s9.credit_no;
+   cin>> s9.cgpa;
+
+    cout<<"enter student id,sem no,credit no,cgpa"<<endl;
+
+   cin>> s10.id ;
+ cin>> s10.sem_no ;
+  cin>> s10.credit_no;
+   cin>> s10.cgpa;
+
+
+   if(s1.cgpa>=3.75&&s1.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s1.id<<endl;
+   }
+
+
+    if(s2.cgpa>=3.75&&s2.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s2.id<<endl;
+   }
+
+
+    if(s3.cgpa>=3.75&&s3.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s3.id<<endl;
+   }
+
+
+    if(s4.cgpa>=3.75&&s4.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s4.id<<endl;
+   }
+
+    if(s5.cgpa>=3.75&&s5.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s5.id<<endl;
+   }
+
+    if(s6.cgpa>=3.75&&s6.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s6.id<<endl;
+   }
+
+    if(s7.cgpa>=3.75&&s7.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s7.id<<endl;
+   }
+
+    if(s8.cgpa>=3.75&&s8.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s8.id<<endl;
+   }
+
+    if(s9.cgpa>=3.75&&s9.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s9.id<<endl;
+   }
+
+    if(s10.cgpa>=3.75&&s10.cgpa<4.00)
+   {
+
+       cout<<"scolarship"<<s10.id<<endl;
+   }
+
+    if(s1.credit_no>=50)
+   {
+
+       cout<<s1.credit_no<<endl;
+   }
+   else{
+       cout<<"invalid"<<endl;
+   }
+
+
+   if(s2.credit_no>=50)
+   {
+
+       cout<<s2.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+
+   if(s3.credit_no>=50)
+   {
+
+       cout<<s3.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+   if(s4.credit_no>=50)
+   {
+
+       cout<<s4.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+if(s5.credit_no>=50)
+   {
+
+       cout<<s5.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+   if(s6.credit_no>=50)
+   {
+
+       cout<<s6.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+   if(s7.credit_no>=50)
+   {
+
+       cout<<s7.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+   if(s8.credit_no>=50)
+   {
+
+       cout<<s8.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+   if(s9.credit_no>=50)
+   {
+
+       cout<<s9.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+   if(s10.credit_no>=50)
+   {
+
+       cout<<s10.credit_no<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s1.sem_no>2&&s1.credit_no<28)
+   {
+
+       cout<<s1.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+
+    if(s2.sem_no>2&&s2.credit_no<28)
+   {
+
+       cout<<s2.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s3.sem_no>2&&s3.credit_no<28)
+   {
+
+       cout<<s3.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s4.sem_no>2&&s4.credit_no<28)
+   {
+
+       cout<<s4.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s5.sem_no>2&&s5.credit_no<28)
+   {
+
+       cout<<s5.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s6.sem_no>2&&s6.credit_no<28)
+   {
+
+       cout<<s6.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s7.sem_no>2&&s7.credit_no<28)
+   {
+
+       cout<<s7.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s8.sem_no>2&&s8.credit_no<28)
+   {
+
+       cout<<s8.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s9.sem_no>2&&s9.credit_no<28)
+   {
+
+       cout<<s9.id<<endl;
+   }
+ else{
+       cout<<"invalid"<<endl;
+   }
+    if(s10.sem_no>2&&s10.credit_no<28)
+   {
+
+       cout<<s10.id<<endl;
+   }
+    else{
+       cout<<"invalid"<<endl;
+   }
+}
